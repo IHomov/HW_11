@@ -1,0 +1,26 @@
+.grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr  auto;
+    grid-template-areas: 'header'
+                        'top_banner'
+                        'main'
+                        'footer';
+}
+header{
+    grid-area: header;
+}
+.top_banner {
+    grid-area: top_banner;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+
+.img img{
+    width: 100%;
+}
