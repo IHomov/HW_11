@@ -13,7 +13,7 @@ footer{
     grid-area: footer;
 }
 
-.horiz_banner img {
+.horiz_banner .banner_top img {
     width: 100%;
 }
 .grid {
@@ -48,4 +48,12 @@ footer{
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
+}
+
+/* grid for main part */
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
 }
