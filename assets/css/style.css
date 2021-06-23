@@ -78,3 +78,9 @@ footer{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
 }
+/* задаю фиксированные размеры картинки и применяю функцию заполнения */
+.banner_top img{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
